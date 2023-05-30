@@ -74,6 +74,14 @@ body {
     color: var(--primary-text-color-theme-light);
 }
 
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+
+
+
 /* MOBILE */
 @media screen and (min-width: 428px) {
     .container {
@@ -84,19 +92,12 @@ body {
 }
 
 @media screen and (max-width: 428px) {
-    .menu {
+.menu {
     display: none;
 }
-    .contact {
+.contact {
     display: none;
 }
-}
-
-.header {
-    padding-top: 24px;
-    padding-bottom: 22px;
-}
-
 .page-header-container {
     display: flex;
     align-items: center;
@@ -115,7 +116,6 @@ body {
 } 
 
 /* MOBILE-MENU */
-
 .mobile-menu {
     position: fixed;
     width: 100%;
@@ -128,6 +128,10 @@ body {
 
 .mobile-menu-container {
     position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 796px;
     padding-top: 80px;
     padding-right: 35px;
     padding-bottom: 40px;
@@ -150,6 +154,15 @@ body {
     border: 1px solid var(--secondary-page-color);
 }
 
+.mobile-navigation-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-navigation-item:not(:last-child) {
+    margin-bottom: 40px;
+}
+
 .mobile-navigation-link {
     font-weight: 700;
     font-size: 36px;
@@ -159,13 +172,40 @@ body {
     color: var(--primary-text-color-theme-light);
 }
 
-.mobile-navigation-item:not(:last-child) {
+/* ADDRESS */
+.mobile-contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobile-contact-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.phone-link {
+    display: flex;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--accent-page-color);
     margin-bottom: 40px;
 }
 
-.current {
-    color: var(--accent-color);
+.email-link {
+    display: flex;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color-theme-light);
+    margin-bottom: 48px;
 }
+}
+
 
 /* повтор з футером */
 .social-list-footer {
@@ -202,42 +242,6 @@ body {
     fill: currentColor;
 } 
 
-
-/* ADDRESS */
-
-.phone-link {
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-color: var(--accent-page-color);
-}
-
-.email-link {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: var(--secondary-text-color-theme-light);
-}
-
-.contact {
-    display: flex;
-    flex-direction: column;
-}
-
-.contact-item:not(:last-child) {
-    margin-bottom: 40px;
-}
-
-.contact-item-link:hover,
-.contact-item-link:focus {
-    color: var(--accent-color);
-}
-
-
 /* TABLET */
 @media screen and (min-width: 768px) {
     .container {
@@ -249,6 +253,12 @@ color: var(--accent-page-color);
 @media screen and (min-width: 1158px) {
     .container {
         width: 1158px;
+    }
+}
+
+@media screen and (max-width: 1158px) {
+    .current {
+        color: var(--accent-color);
     }
 }
 
