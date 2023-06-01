@@ -115,15 +115,15 @@
   </header>
   <main>
     <!-- HERO -->
-    <!-- <section class="hero bg-theme-dark overlay">
+    <section class="hero bg-theme-dark overlay">
       <div class="container">
         <h1 class="main-title">Effective Solutions<br>for Your Business</h1>
         <button class="modal-service-btn" type="button" data-modal-open>Order Service</button>
       </div>
-  </section> -->
+  </section>
 
     <!-- FEATURES -->
-    <!-- <section class="features section">
+    <section class="features section">
       <div class="container">
         <h2 class="features-title title visually-hidden" hidden>Features</h2>
           <ul class="features-list list">
@@ -177,29 +177,37 @@
             </li>
           </ul>
         </div>
-    </section> -->
+    </section>
 
     <!-- WORK EXAMPLES -->
-    <!-- <section class="work-examples">
+    <section class="work-examples">
       <div class="container">
         <h2 class="work-examples-title title">What are we doing</h2>
           <ul class="work-examples-list list">
             <li class="work-examples-list-item">
-              <img src="./images/img1.jpg" alt="statistics on the monitor" width="360" height="300" />
+              <img srcset="./images/features-image/img1.jpg 1x, ./images/features-image/img1@2x.jpg 2x" 
+              src="./images/features-image/img1.jpg" 
+              alt="statistics on the monitor" 
+              width="360" height="300" />
             </li>
             <li class="work-examples-list-item">
-              <img src="./images/img2.jpg" alt="screenshots of the smartphone" width="360" height="300" />
+              <img srcset="./images/features-image/img2.jpg 1x, ./images/features-image/img2@2x.jpg 2x" 
+              src="./images/features-image/img2.jpg" 
+              alt="screenshots of the smartphone" 
+              width="360" height="300" />
             </li>
             <li class="work-examples-list-item">
-              <img src="./images/img3.jpg" alt="smartphone" width="360" height="300" />
+              <img srcset="./images/features-image/img3.jpg 1x, ./images/features-image/img3@2x.jpg 2x" 
+              src="./images/features-image/img3.jpg" 
+              alt="smartphone" 
+              width="360" height="300" />
             </li>
           </ul>
       </div>
-      
-    </section> -->
+    </section>
 
     <!--TEAM -->
-    <!-- <section class="team section">
+    <section class="team section">
       <div class="container">
           <h2 class="team-title title">Our Team</h2>
         <ul class="team-list list">
@@ -353,7 +361,7 @@
           </li>
         </ul>
       </div>
-    </section> -->
+    </section>
 
     <!-- CUSTOMERS -->
     <!-- <section class="castomers section">
@@ -466,16 +474,16 @@
   </footer> -->
 
 <!-- MODAL WINDOW -->
-<!-- <div class="backdrop is-hidden" data-modal>
+<div class="backdrop is-hidden" data-modal>
   <div class="modal-window">
     <button type="button" class="modal-close-btn" data-modal-close>
       <svg aria-label="close" class="modal-close-btn-icon" width="8" height="8">
         <use href="./images/icons.svg#icon-close"></use>
       </svg>
     </button>
-    <p class="modal-form-desc">Leave your contacts and we will call you back</p> -->
+    <p class="modal-form-desc">Leave your contacts and we will call you back</p>
 <!-- MODAL FORM -->
-    <!-- <form class="modal-form">
+    <form class="modal-form">
       <div class="modal-form-container">
         <label for="user-name" class="modal-form-field">Name</label>
         <div class="modal-form-input-wrapper">
@@ -504,14 +512,14 @@
             <use href="./images/icons.svg#icon-email"></use>
           </svg>
         </div>
-      </div> -->
+      </div>
 <!-- TEXTAREA -->
-<!-- <div class="modal-form-message-container">
+<div class="modal-form-message-container">
   <label for="user-comment" class="modal-form-field">Comment</label>
   <textarea id="user-comment" class="modal-form-message" name="user-comment" placeholder="Text input"></textarea>
-</div> -->
+</div>
 <!-- CHECKBOX  -->
-<!-- <div class="modal-form-checkbox-container">
+<div class="modal-form-checkbox-container">
   <input id="user-privacy" class="modal-form-checkbox visually-hidden" type="checkbox" value="true" name="user-privacy" required>
   <label for="user-privacy" class="modal-form-check-desc">
     <span class="modal-form-own-checkbox">
@@ -521,14 +529,14 @@
     </span>
     I accept the terms and conditions of the <a href="" class="policy-link">Privacy Policy</a>
   </label>
-</div> -->
+</div>
 <!-- SUBMIT BUTTON -->
-      <!-- <button type="submit" class="modal-form-submit-btn">Send</button>
+      <button type="submit" class="modal-form-submit-btn">Send</button>
     </form>
     </div>
     </div>
 
-  <script src="./js/modal.js"></script> -->
+  
   <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
@@ -536,5 +544,6 @@
       crossorigin="anonymous"
     ></script>
   <script src="./js/mobile-menu.js"></script>
+  <script src="./js/modal.js"></script>
 </body>
 </html>
