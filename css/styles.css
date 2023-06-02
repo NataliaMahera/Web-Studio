@@ -708,9 +708,9 @@ body {
     .mobile-menu-container {
         position: relative;
         display: flex;
+        height: 100%;
         flex-direction: column;
-        /* justify-content: space-between; */
-        row-gap: 284px;
+        justify-content: space-between;
         padding-top: 80px;
         padding-right: 35px;
         padding-bottom: 40px;
@@ -1221,7 +1221,7 @@ body {
     /* -=========== DESKTOP-HERO ==================*/
 
     .overlay {
-        max-width: 1440px;
+        width: 1440px;
         height: 600px;
         background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
