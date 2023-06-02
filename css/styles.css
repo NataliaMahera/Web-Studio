@@ -755,11 +755,6 @@ body {
     }
 
     .mobile-contact-container {
-        /* position: absolute;
-        left: 0;
-        bottom: 0;
-        padding-bottom: 40px;
-        padding-left: 40px; */
         display: flex;
         flex-direction: column;
     }
@@ -896,9 +891,20 @@ body {
     .social-media-container {
         margin-bottom: 72px;
     }
+
+    .footer-form {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-form-field {
+        width: 100%;
+    }
     
     .footer-form-input {
-        width: 398px;
+        width: 100%;
         margin-bottom: 16px;
     }
 
@@ -906,6 +912,12 @@ body {
         margin-left: auto;
         margin-right: auto;
     }
+
+    .subscribe-form-container {
+        width: 100%;
+    }
+
+
 
     /* ============== MOBILE-FOOTER ================= */
 }
