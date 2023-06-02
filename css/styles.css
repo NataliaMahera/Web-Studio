@@ -250,7 +250,7 @@ body {
     background-color: var(--modal-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform var(--transition-dur-and-func);
-    padding: 72px 24px 24px 24px;
+    padding: 72px 16px 16px 24px;
 }
 
 .modal-close-btn {
@@ -809,7 +809,6 @@ body {
     /* ================ MOBILE-HERO =============== */
 
     .overlay {
-        max-width: 428px;
         height: 432px;
         background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -826,6 +825,11 @@ body {
         padding-top: 112px;
         padding-bottom: 240px;
     } 
+
+    .modal-window {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 
     /* ================ /MOBILE-HERO =============== */
 
@@ -1040,7 +1044,6 @@ body {
     /* ============== TABLET-HERO ============== */
 
     .overlay {
-        max-width: 768px;
         height: 436px;
         background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -1059,6 +1062,11 @@ body {
     .modal-service-btn {
         margin-top: 36px;
     } 
+
+    .modal-window {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
     /* ============ /TABLET-HERO =============== */
 
     /* ============== TABLET-TEAM ============== */
@@ -1194,6 +1202,7 @@ body {
         margin-right: 76px;
     }
 
+
     /* == ADDRESS == */
     .contact-item-link {
         font-size: 16px;
@@ -1214,7 +1223,6 @@ body {
     /* -=========== DESKTOP-HERO ==================*/
 
     .overlay {
-        max-width: 1440px;
         height: 600px;
         background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -1286,11 +1294,6 @@ body {
     /* ============= /DESCTOP-CUSTOMERS ============ */
 
     /* ============== DESCTOP-FOOTER================= */
-    .bg-theme-dark {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-
     .footer-media-container {
         margin-right: 120px;
     }
@@ -1303,7 +1306,6 @@ body {
     .subscribe-form-container {
     margin-left: auto;
     }
-
     
     /* ============= /DESCTOP-FOOTER============= */
 }
