@@ -794,8 +794,6 @@ body {
 
     .social-list-mobile-menu {
         display: flex;
-        flex-wrap: wrap;
-        align-items: center;
         column-gap: 56px;
     }
     
