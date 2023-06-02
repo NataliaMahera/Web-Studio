@@ -709,7 +709,7 @@ body {
         position: relative;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        /* justify-content: space-between; */
         row-gap: 284px;
         padding-top: 80px;
         padding-right: 35px;
@@ -892,7 +892,7 @@ body {
         margin-bottom: 72px;
     }
 
-    .social-media-container {
+    .footer-social-media-container {
         margin-bottom: 72px;
     }
 
