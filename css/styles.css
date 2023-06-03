@@ -908,7 +908,6 @@ body {
     /* ================ MOBILE-HERO =============== */
 
     .overlay {
-        height: 432px;
         background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/hero-image/hero-image-mobile.jpg);
@@ -1140,7 +1139,6 @@ body {
     /* ============== TABLET-HERO ============== */
 
     .overlay {
-        height: 436px;
         background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/hero-image/hero-image-tablet.jpg);
@@ -1321,7 +1319,7 @@ body {
     /* -=========== DESKTOP-HERO ==================*/
 
     .overlay {
-        height: 600px;
+        max-width: 1440px;
         background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/hero-image/hero-image-desctop.jpg);
