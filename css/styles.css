@@ -708,6 +708,7 @@ body {
     .mobile-menu-container {
         position: relative;
         display: flex;
+
         height: 100%;
         flex-direction: column;
         justify-content: space-between;
@@ -794,6 +795,7 @@ body {
 
     .social-list-mobile-menu {
         display: flex;
+        flex-wrap: wrap;
         column-gap: 56px;
     }
     
