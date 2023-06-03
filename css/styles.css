@@ -175,7 +175,6 @@ body {
     /* ============ HERO-COMPONENTS ========= */
 
 .overlay {
-    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     background-repeat: no-repeat;
@@ -664,6 +663,11 @@ body {
 /* ================ MOBILE =============== */
 
 /* =========== MOBILE-HEADER ==========*/
+@media screen and (max-width: 427px) {
+    .modal-window {
+        min-width: 95vw;
+    } 
+}
 
 @media screen and (max-width: 767px) {
     .menu {
