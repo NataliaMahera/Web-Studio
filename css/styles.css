@@ -621,7 +621,7 @@ body {
 
     .footer-form-input::placeholder {
         color: var(--background-color-theme-light);
-        /* opacity: 0.3; */
+        opacity: 0.3;
     }
 
     .submit-form-btn {
