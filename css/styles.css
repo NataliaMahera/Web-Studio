@@ -1220,7 +1220,7 @@ body {
     /* -=========== DESKTOP-HERO ==================*/
 
     .overlay {
-        width: 1440px;
+        max-width: 1440px;
         height: 600px;
         background-image:
         linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
@@ -1319,103 +1319,6 @@ body {
         }
 }
  /* -================== DESKTOP ==================*/   
-
-
-
-
-
-
-
-
-/* ================FOOTER================= */
-
-
-
-/* .footer-container {
-    display: flex;
-    align-items: baseline;
-}
-
-.footer-media-container {
-    margin-right: 120px;
-}
-
-.footer-media-desc {
-    font-weight: 500;
-    color: var(--background-color-theme-light);
-    margin-bottom: 16px;
-}
-
-.social-list-footer {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 16px;
-}
-
-.footer-social-link:hover,
-.footer-social-link:focus {
-    background-color: var(--accent-background-color);
-}
-
-.subscribe-form-container {
-   margin-left: auto;
-}
-
-.footer-form {
-    display: flex;
-}
-
-.footer-form-field {
-    margin-right: 24px;
-}
-
-.footer-form-input {
-    width: 264px;
-    height: 40px;
-    border: 1px solid var(--background-color-theme-light);
-    background-color: transparent;
-    font-size: 12px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    padding-left: 16px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-   border-radius: 4px;
-   color: var(--background-color-theme-light);
-}
-
-.footer-form-input::placeholder {
-    color: var(--background-color-theme-light);
-}
-
-.submit-form-btn {
-    min-width: 165px;
-    height: 40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    color: var(--background-color-theme-light);
-    cursor: pointer;
-    background-color: var(--accent-page-color);
-    border: none;
-    border-radius: 4px;
-    transition: background-color var(--transition-dur-and-func);
-}
-
-.submit-form-btn-icon {
-    margin-left: 16px;
-    fill: var(--background-color-theme-light);
-}
-
-.submit-form-btn:hover,
-.submit-form-btn:focus {
-    background-color: var(--accent-color);
-} */
-/* ===============/FOOTER================= */
 
 
 /* ===============PORTFOLIO-PAGE================= */
