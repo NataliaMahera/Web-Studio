@@ -958,7 +958,7 @@ body {
     }
 
      .customers-list-item {
-        flex-basis: calc((100% - 16px) / 2);
+        flex-basis: 190px;
     }
     /* =========== MOBILE-CUSTOMERS ============= */
 
@@ -1164,7 +1164,7 @@ body {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        column-gap: 18px;
+        column-gap: 24px;
         row-gap: 64px;
     }
     
@@ -1182,7 +1182,7 @@ body {
     }
 
      .customers-list-item {
-        flex-basis: calc((100% - 48px) / 3);
+        flex-basis: 168px;
     }
      /* ========== /TABLET-CUSTOMERS ========== */ 
 
