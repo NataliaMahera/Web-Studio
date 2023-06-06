@@ -744,7 +744,7 @@ body {
 /* ================ MOBILE =============== */
 
 /* =========== MOBILE-HEADER ==========*/
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 427px) {
    .gallery-img {
     max-width: 100%;
     height: auto;
@@ -1220,11 +1220,6 @@ body {
         column-gap: 24px;
         row-gap: 72px;
     }
-
-    /* .gallery-img {
-        width: 356px;
-    } */
-
     /* ================ /PORTFOLIO-GALLERY ======================= */
      
 }
