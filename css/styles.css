@@ -744,20 +744,15 @@ body {
 /* ================ MOBILE =============== */
 
 /* =========== MOBILE-HEADER ==========*/
-@media screen and (max-width: 427px) {
-    .modal-window {
-        min-width: 95vw;
-    } 
-}
-
 @media screen and (max-width: 426px) {
    .gallery-img {
     max-width: 100%;
     height: auto;
-} 
+    } 
+.modal-window {
+        min-width: 95vw;
+    } 
 }
-
-
 
 @media screen and (max-width: 767px) {
     .menu {
@@ -1225,6 +1220,10 @@ body {
         column-gap: 24px;
         row-gap: 72px;
     }
+
+    /* .gallery-img {
+        width: 356px;
+    } */
 
     /* ================ /PORTFOLIO-GALLERY ======================= */
      
