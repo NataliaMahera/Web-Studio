@@ -750,10 +750,14 @@ body {
     } 
 }
 
-.gallery-img {
+@media screen and (max-width: 426px) {
+   .gallery-img {
     max-width: 100%;
     height: auto;
+} 
 }
+
+
 
 @media screen and (max-width: 767px) {
     .menu {
